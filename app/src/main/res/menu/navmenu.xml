@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mehome"
+            android:icon="@drawable/dash"
+            android:title="home" />
+
+        <item
+            android:id="@+id/meshopbycategory"
+            android:icon="@drawable/order"
+            android:title="Shop By Category" />
+
+        <item
+            android:id="@+id/mecart"
+            android:icon="@drawable/cart"
+            android:title="Cart"
+            />
+
+        <item
+            android:id="@+id/mewishlist"
+            android:icon="@drawable/wishlist"
+            android:title="WishList" />
+
+        <item
+            android:id="@+id/meorder"
+            android:icon="@drawable/order"
+            android:title="Your Order" />
+
+    </group>
+
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/mechangepassword"
+                    android:icon="@drawable/change_password"
+                    android:title="Change Password" />
+                <item
+                    android:id="@+id/melogout"
+                    android:icon="@drawable/exit"
+                    android:title="Log Out" />
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
